@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   
+}
+.currentColor{
+    color: rgb(255,255,255);
+    background-color: rgb(4,45,67);
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.changeClass{
+    margin-top: 3rem;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    /* font-weight: 800; */
+    letter-spacing: 0.3rem;
+    color: black;
+    background-color: #efefef;
+    border-radius: 1rem;
+}
+
+button:hover{
+    background-color: #efeffe;
+    font-size: 2.3rem;
+    font-weight: 800;
+    border-radius: 1.5rem;
+    
+}
